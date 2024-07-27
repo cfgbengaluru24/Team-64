@@ -1,0 +1,70 @@
+/* Container for the chat component */
+.chat-container {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Chat messages area */
+.messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Individual message */
+.message {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e1e1e1;
+}
+
+/* Sender message */
+.message.sender {
+    background-color: #cce5ff;
+    align-self: flex-end;
+}
+
+/* Receiver message */
+.message.receiver {
+    background-color: #d4edda;
+    align-self: flex-start;
+}
+
+/* Input area for typing messages */
+.input-area {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 5px;
+}
+
+/* Text input for messages */
+.input-area input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button to send message */
+.input-area button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.input-area button:hover {
+    background-color: #0056b3;
+}
