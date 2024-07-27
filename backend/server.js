@@ -3,6 +3,7 @@ import cors from 'cors'
 import { connectDB } from './config/db.js'
 import scoreRouter from './routes/scoreRoute.js'
 import attendanceRouter from './routes/attendanceRoute.js'
+import studentRouter from './routes/studentRoute.js'
 
 //app config
 const app = express()
@@ -17,6 +18,7 @@ connectDB();
 
 app.use('/score', scoreRouter)
 app.use('/attendance', attendanceRouter)
+app.use('/student', studentRouter)
 
 app.get("/", (req,res)=>{
     res.send("API Working")

@@ -1,34 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
 import './App.css'
+import NavBar from '../Components/NavBar/NavBar'
+import { ToastContainer } from 'react-toastify';
+import { Route, Routes } from 'react-router-dom'
+import 'react-toastify/dist/ReactToastify.css';
+import SideBar from '../Components/SideBar/SideBar'
+import AddStudents from '../Pages/addStudents/addStudents';
+import AddAttendance from '../Pages/addAttendance/addAttendance';
+import ListStudents from '../Pages/listStudents/listStudents';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+  const url = "http://localhost:4000"
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div>
+      <ToastContainer />
+      <NavBar />
+      <hr />
+      <div className="app-content">
+        <SideBar />
+        <Routes>
+          <Route path='/addstudents' element={<AddStudents url={url}/>}/>
+          <Route path='/addattendance' element={<AddAttendance url={url}/>}/>
+          <Route path='/liststudents' element={<ListStudents url={url}/>}/>
+        </Routes>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
