@@ -93,5 +93,4 @@ const AddStudent = ({ url }) => {
         </div>
     )
 }
-
 export default AddStudent

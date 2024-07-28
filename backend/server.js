@@ -24,7 +24,6 @@ app.use('/score', scoreRouter)
 app.use('/attendance', attendanceRouter)
 app.use('/student', studentRouter)
 
-
 app.listen(port, ()=>{
     console.log(`Server started in http://localhost:${port}`)
 })
