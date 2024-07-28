@@ -1,0 +1,92 @@
+{
+    "4": {
+        "AbsentDays": 66.0,
+        "Behaviour": 39.0,
+        "Marks": 33.0,
+        "RiskPercentage": 69.16999999999999
+    },
+    "29": {
+        "AbsentDays": 64.0,
+        "Behaviour": 39.0,
+        "Marks": 43.0,
+        "RiskPercentage": 66.97
+    },
+    "16": {
+        "AbsentDays": 64.0,
+        "Behaviour": 40.0,
+        "Marks": 48.0,
+        "RiskPercentage": 66.83999999999999
+    },
+    "18": {
+        "AbsentDays": 64.0,
+        "Behaviour": 50.0,
+        "Marks": 50.0,
+        "RiskPercentage": 66.5
+    },
+    "20": {
+        "AbsentDays": 63.0,
+        "Behaviour": 37.0,
+        "Marks": 35.0,
+        "RiskPercentage": 66.18999999999998
+    },
+    "45": {
+        "AbsentDays": 63.0,
+        "Behaviour": 49.0,
+        "Marks": 31.0,
+        "RiskPercentage": 65.91
+    },
+    "1": {
+        "AbsentDays": 62.0,
+        "Behaviour": 30.0,
+        "Marks": 32.0,
+        "RiskPercentage": 65.46
+    },
+    "28": {
+        "AbsentDays": 62.0,
+        "Behaviour": 32.0,
+        "Marks": 41.0,
+        "RiskPercentage": 65.22
+    },
+    "31": {
+        "AbsentDays": 61.0,
+        "Behaviour": 39.0,
+        "Marks": 46.0,
+        "RiskPercentage": 63.90999999999999
+    },
+    "41": {
+        "AbsentDays": 61.0,
+        "Behaviour": 45.0,
+        "Marks": 47.0,
+        "RiskPercentage": 63.709999999999994
+    },
+    "25": {
+        "AbsentDays": 60.0,
+        "Behaviour": 45.0,
+        "Marks": 55.0,
+        "RiskPercentage": 62.55
+    },
+    "50": {
+        "AbsentDays": 58.0,
+        "Behaviour": 32.0,
+        "Marks": 44.0,
+        "RiskPercentage": 61.16
+    },
+    "37": {
+        "AbsentDays": 58.0,
+        "Behaviour": 42.0,
+        "Marks": 45.0,
+        "RiskPercentage": 60.839999999999996
+    },
+    "22": {
+        "AbsentDays": 58.0,
+        "Behaviour": 44.0,
+        "Marks": 45.0,
+        "RiskPercentage": 60.779999999999994
+    },
+    "27": {
+        "AbsentDays": 58.0,
+        "Behaviour": 50.0,
+        "Marks": 62.0,
+        "RiskPercentage": 60.260000000000005
+    }
+}
